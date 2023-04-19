@@ -12,7 +12,7 @@ import Blog from './components/blog/Blog';
 import Testimonials from './components/testimonials/Testimonials';
 const App = () => {
   return (
-    <div>
+    <>
       <Sidebar />
       <Home/>
       <About/>
@@ -24,7 +24,7 @@ const App = () => {
       <Blog/>
       <Contact/>
 
-    </div>
+    </>
   )
 }
 
